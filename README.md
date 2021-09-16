@@ -1,4 +1,4 @@
-I have this working on an older AMI - but a work production one I can't just clone in the sandbox - all else fails, might have to work that out.  Or pack it.  Took a while to get going though and quite a few tweaks.
+I have this working on an older AMI - but a work production one I can't just clone in the sandbox - all else fails, might have to work that out.  Or pack it.  Took a while to get going though and quite a few tweaks.  So the installs are relevant to a particular project, but still pretty generic.
 
 # AWS-EC2-Deep-Learning-AMI-GDAL-Install-Problems
 Problems encountered with trying to get this to work
@@ -382,3 +382,17 @@ Installing collected packages: GDAL
     ----------------------------------------
 ERROR: Command errored out with exit status 1: /home/ubuntu/anaconda3/envs/tensorflow_p37/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-w_2ga_xs/gdal_8225fcb369174c5585286229e56d9881/setup.py'"'"'; __file__='"'"'/tmp/pip-install-w_2ga_xs/gdal_8225fcb369174c5585286229e56d9881/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' build_ext -I/usr/include/gdal install --record /tmp/pip-record-e37qte8n/install-record.txt --single-version-externally-managed --compile --install-headers /home/ubuntu/anaconda3/envs/tensorflow_p37/include/python3.7m/GDAL Check the logs for full command output.
 ```
+
+
+# CONDA VERSION
+## Setup will be slower
+- conda create --name gdaltest -y
+
+- conda install tensorflow-gpu=1.15 -y
+- conda install gdal -y
+- conda instal geopandas -y
+- conda install rasterio -y 
+- conda install tqdm matplotlib scikit-image opencv boto3 -y
+- conda install jupyter ipywidgets -y
+- pip install keras-tqdm
+
