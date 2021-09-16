@@ -413,6 +413,8 @@ then can just have this on a volume you can attach via spot fleet and activate a
 - have to run on same OS - e.g. Ubuntu 16.04
 - make an image and keep one if one works so you always have one even if deprecated elsewhere
 - source exploracorn_env/bin/activate
+- Ubuntu 16.04 Deep Learning AMI ami-0a3ca2a84940f39f9
+- Ubuntu 18.04 Deep Learning AMI ami-0fbe8fce8e66deadc
 
 
 
