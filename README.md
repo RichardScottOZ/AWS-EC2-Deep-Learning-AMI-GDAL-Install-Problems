@@ -397,4 +397,6 @@ ERROR: Command errored out with exit status 1: /home/ubuntu/anaconda3/envs/tenso
 - conda install tqdm matplotlib scikit-image opencv boto3 -y
 - conda install jupyter ipywidgets -y
 - pip install keras-tqdm
+- conda install jupyter ipywidgets -y
+#make sure uptodate jupyter etc - towrk with keras tqdm
 
