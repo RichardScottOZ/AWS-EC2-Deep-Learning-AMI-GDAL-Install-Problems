@@ -390,7 +390,7 @@ ERROR: Command errored out with exit status 1: /home/ubuntu/anaconda3/envs/tenso
 ## Setup will be slower
 - conda create --name gdaltest -y
 
-- conda install tensorflow-gpu=1.15 keras -y
+- conda install tensorflow-gpu=1.15 keras=2.2.4 h5py-2.10.0 -y -y
 - conda install gdal -y
 - conda instal geopandas -y
 - conda install rasterio -y 
