@@ -404,7 +404,13 @@ ERROR: Command errored out with exit status 1: /home/ubuntu/anaconda3/envs/tenso
 https://github.com/keras-team/keras/issues/14265
 
 ## Conda Pack
-- Try packing the environment and copy from s3 and activate as a workaround
+- Try packing the old working environment and copy from s3 and activate as a workaround
 - Save on installs and C header issues
-- 
+
+https://conda.github.io/conda-pack/
+
+then can just have this on a volume you can attach via spot fleet and activate as necessary
+- source exploracorn_env/bin/activate
+
+
 
