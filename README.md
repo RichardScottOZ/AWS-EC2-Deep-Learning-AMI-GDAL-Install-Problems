@@ -410,6 +410,8 @@ https://github.com/keras-team/keras/issues/14265
 https://conda.github.io/conda-pack/
 
 then can just have this on a volume you can attach via spot fleet and activate as necessary
+- have to run on same OS - e.g. Ubuntu 16.04
+- make an image and keep one if one works so you always have one even if deprecated elsewhere
 - source exploracorn_env/bin/activate
 
 
