@@ -398,5 +398,10 @@ ERROR: Command errored out with exit status 1: /home/ubuntu/anaconda3/envs/tenso
 - conda install jupyter ipywidgets -y
 - pip install keras-tqdm
 - conda install jupyter ipywidgets -y
-#make sure uptodate jupyter etc - towrk with keras tqdm
+#make sure uptodate jupyter etc - to work with keras tqdm
+
+## Conda Pack
+- Try packing the environment and copy from s3 and activate as a workaround
+- Save on installs and C header issues
+- 
 
