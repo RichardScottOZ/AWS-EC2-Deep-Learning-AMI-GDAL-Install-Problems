@@ -424,3 +424,5 @@ then can just have this on a volume you can attach via spot fleet and activate a
 
 
 
+## Notes
+If the generic install works - can conda-pack that as well - get a more up to date gdal that should be good for a while.  Also untested for flaws in some library complications interacting.
