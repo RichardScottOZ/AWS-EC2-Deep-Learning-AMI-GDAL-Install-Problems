@@ -420,6 +420,7 @@ then can just have this on a volume you can attach via spot fleet and activate a
 - Ubuntu 16.04 Deep Learning AMI ami-0a3ca2a84940f39f9 [have different spot fleet configs for each one]
 - Ubuntu 18.04 Deep Learning AMI ami-0fbe8fce8e66deadc
 - mkdir -p my_env
+- create an image from this and use - then could skip a couple of spot fleet steps and have set gdal-bin and libgdal-dev
 
 
 
