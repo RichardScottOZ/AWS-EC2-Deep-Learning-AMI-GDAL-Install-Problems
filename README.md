@@ -410,11 +410,16 @@ https://github.com/keras-team/keras/issues/14265
 https://conda.github.io/conda-pack/
 
 then can just have this on a volume you can attach via spot fleet and activate as necessary
-- have to run on same OS - e.g. Ubuntu 16.04
+- have to run on same OS - e.g. Ubuntu 16.04 for some things
+- still will need a compatible system library
+- e.g. gdal-bin libgdal-dev matching what is in the old environment - like 1.11
 - make an image and keep one if one works so you always have one even if deprecated elsewhere
+- tar -xzf my_env.tar.gz -C my_env
 - source exploracorn_env/bin/activate
-- Ubuntu 16.04 Deep Learning AMI ami-0a3ca2a84940f39f9
+- conda-unpack
+- Ubuntu 16.04 Deep Learning AMI ami-0a3ca2a84940f39f9 [have different spot fleet configs for each one]
 - Ubuntu 18.04 Deep Learning AMI ami-0fbe8fce8e66deadc
+- mkdir -p my_env
 
 
 
