@@ -1,5 +1,7 @@
 I have this working on an older AMI - but a work production one I can't just clone in the sandbox - all else fails, might have to work that out.  Or pack it.  Took a while to get going though and quite a few tweaks.  So the installs are relevant to a particular project, but still pretty generic.
 
+Basic aim is to get an automated Spot Fleet setup so that you can train cheaply - and if it interrupts, it will start again.
+
 # AWS-EC2-Deep-Learning-AMI-GDAL-Install-Problems
 Problems encountered with trying to get this to work
 
