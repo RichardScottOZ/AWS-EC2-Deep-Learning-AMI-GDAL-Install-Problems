@@ -22,6 +22,8 @@ This is not supported with a pip install - too old.
 
 2.2.4 
 
+- adding the gis unstable repo similar to above will get you to version 3.04
+
 # tensorflow_p37 environment
 
 - source activate tensorflow_p37
